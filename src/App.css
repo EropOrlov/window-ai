@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 12px;
+}
